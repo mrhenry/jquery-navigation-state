@@ -4,7 +4,7 @@
 /*
 Author: Simon Menke
 Created at: 2012-01-26
-Version: 1.0.0
+Version: 1.0.1
 
 @html
   <body data-active-nav-keys="page-5 page-20">

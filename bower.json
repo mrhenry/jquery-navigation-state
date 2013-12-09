@@ -1,7 +1,7 @@
 {
   "name": "jquery-navigation-state",
   "main": "jquery-navigation-state.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/mrhenry/jquery-navigation-state",
   "authors": [
     "Simon Menke <simon@mrhenry.be>",
