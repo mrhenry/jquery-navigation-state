@@ -1,4 +1,4 @@
-/*global $, define */
+/*global jQuery, $, window, define */
 /*jslint node: true */
 
 /*
