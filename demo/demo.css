@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+a.active,
+a:hover {
+  border-bottom: 1px solid gray;
+  color: black;
+}
+
+nav {
+  margin: 1em 0;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "jquery-navigation-state",
+  "main": "jquery-navigation-state.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/mrhenry/jquery-navigation-state",
+  "authors": [
+    "Simon Menke <simon@mrhenry.be>",
+    "Yves Van Broekhoven <yvesvanbroekhoven@gmail.com>"
+  ],
+  "description": "Set your navigation state when your navigation HTML is cached.",
+  "keywords": [
+    "jquery",
+    "navigation",
+    "state"
+  ],
+  "dependencies": {
+    "jquery": "~1.5.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
