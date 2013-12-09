@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery-navigation-state by mrhenry</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jquery-navigation-state</h1>
+        <p>Set your navigation state when your navigation HTML is cached.</p>
+
+        <p class="view"><a href="https://github.com/mrhenry/jquery-navigation-state">View the Project on GitHub <small>mrhenry/jquery-navigation-state</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/mrhenry/jquery-navigation-state/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mrhenry/jquery-navigation-state/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mrhenry/jquery-navigation-state">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jquery-navigation-state" class="anchor" href="#jquery-navigation-state"><span class="octicon octicon-link"></span></a>jQuery Navigation State</h1>
+
+<p>Set your navigation state when your navigation HTML is cached.</p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<h3>
+<a name="bower" class="anchor" href="#bower"><span class="octicon octicon-link"></span></a>Bower</h3>
+
+<pre><code>$ bower install jquery-navigation-state
+</code></pre>
+
+<h3>
+<a name="plain-old-simple-include" class="anchor" href="#plain-old-simple-include"><span class="octicon octicon-link"></span></a>Plain old simple include</h3>
+
+<pre><code>&lt;script src="jquery-navigation-state.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<h2>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<p>This plugin adds the class "active" to an element if it's data attributes matches
+the list on </p>.
+
+<h3>
+<a name="html" class="anchor" href="#html"><span class="octicon octicon-link"></span></a>HTML</h3>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;body</span> <span class="na">data-active-nav-keys=</span><span class="s">"page-5 page-20"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;nav&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/products"</span> <span class="na">data-nav-key=</span><span class="s">"page-5"</span><span class="nt">&gt;</span>Products<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/about"</span> <span class="na">data-nav-key=</span><span class="s">"page-6"</span><span class="nt">&gt;</span>About<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/nav&gt;</span>
+
+  <span class="nt">&lt;nav&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/products/cookies"</span> <span class="na">data-nav-key=</span><span class="s">"page-9"</span><span class="nt">&gt;</span>Cookies<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/products/milk"</span> <span class="na">data-nav-key=</span><span class="s">"page-20"</span><span class="nt">&gt;</span>Milk<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/nav&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+</pre></div>
+
+<h3>
+<a name="javascript" class="anchor" href="#javascript"><span class="octicon octicon-link"></span></a>Javascript</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">new</span> <span class="nx">NavigationState</span><span class="p">();</span>
+<span class="p">});</span>
+</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/mrhenry">mrhenry</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-32582056-4");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
