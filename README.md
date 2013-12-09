@@ -19,7 +19,7 @@ $ bower install jquery-navigation-state
 ## How to use
 
 This plugin adds the class "active" to an element if it's data attributes matches
-the list on <body>.
+the list on the body tag.
 
 ### HTML
 
@@ -43,4 +43,4 @@ the list on <body>.
 $(function() {
   new NavigationState();
 });
-``
+```
