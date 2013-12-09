@@ -2,7 +2,26 @@
 
 Set your navigation state when your navigation HTML is cached.
 
-## HTML
+## Install
+
+### Bower
+
+```
+$ bower install jquery-navigation-state
+```
+
+### Plain old simple include
+
+```
+<script src="jquery-navigation-state.js"></script>
+```
+
+## How to use
+
+This plugin adds the class "active" to an element if it's data attributes matches
+the list on <body>.
+
+### HTML
 
 ```html
 <body data-active-nav-keys="page-5 page-20">
@@ -17,3 +36,11 @@ Set your navigation state when your navigation HTML is cached.
   </nav>
   </body>
 ```
+
+### Javascript
+
+```javascript
+$(function() {
+  new NavigationState();
+});
+``
