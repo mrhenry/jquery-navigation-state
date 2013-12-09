@@ -13,6 +13,9 @@
     "navigation",
     "state"
   ],
+  "dependencies": {
+    "jquery": "~1.5.0"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
