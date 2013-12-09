@@ -22,7 +22,7 @@ Version: 1.0.0
 
 "use strict";
 
-(function(){
+(function($){
 
   function NS() {
     var $body = $('body'),
@@ -55,6 +55,7 @@ Version: 1.0.0
     });
   }
 
+
   // UMD expose
   if (typeof exports == "object") {
       module.exports = NS;
@@ -65,8 +66,8 @@ Version: 1.0.0
       });
 
   } else {
-      this.NavigationState = NS;
+      window.NavigationState = NS;
 
   }
 
-}());
+}(jQuery));
